@@ -61,3 +61,12 @@
 .nav-link:hover {
     background-color: #321df1;
 }
+
+.contenido_principal{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    font-family: cursive;
+    font-style: italic;
+}
