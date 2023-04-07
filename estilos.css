@@ -1,0 +1,22 @@
+.Portada{
+    display: flex;
+    align-items: center;
+    /* justify-content:space-between; */
+    flex-grow: 1;
+    background-color: rgb(175, 0, 0);
+    flex-basis: 100%;
+    text-align: center;
+}
+#port_izq, #port_der{
+    display: flex;
+    justify-content: center;
+    flex-grow: 3;
+    color: white;
+    flex-basis: 50%;
+    font-style: italic;
+    font-size:45px;
+    font-family: cursive;
+}
+#port_der{
+    flex-direction: column;
+}
