@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     /* justify-content:space-between; */
-    flex-grow: 1;
+    flex-grow: 3;
     background-color: rgb(175, 0, 0);
     flex-basis: 100%;
     text-align: center;
@@ -10,7 +10,7 @@
 #port_izq, #port_der{
     display: flex;
     justify-content: center;
-    flex-grow: 3;
+    flex-grow: 1;
     color: white;
     flex-basis: 50%;
     font-style: italic;
@@ -24,27 +24,40 @@
     background-color: #0e0f46;
     height: 50px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content:center;
 
   }
   
-  .navbar-nav {
+  .navbar-nav-izq {
     display: flex;
     list-style-type: none;
+    margin: 0px;
+    justify-content:flex-start;
   }
   
-  .nav-item {
-    margin-right: 150px;
-    font-size: 20px;
-  }
+.navbar-nav-der {
+    display: flex;
+    list-style-type: none;
+    justify-content:flex-end;
+}
+
+.nav-item {
+    /* margin-right: 10; */
+    font-size: 20px ;
+}
   
-  .nav-link {
+.nav-link {
     color: #fff;
     text-decoration: none;
     padding: 15px;
-  }
+}
+
+.nav-link-pat {
+    text-decoration: none;
+    margin-left: 20px;
+}
   
-  .nav-link:hover {
-    background-color: #555;
-  }
+.nav-link:hover {
+    background-color: #321df1;
+}
