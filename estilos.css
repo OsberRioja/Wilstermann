@@ -20,3 +20,31 @@
 #port_der{
     flex-direction: column;
 }
+.navbar {
+    background-color: #0e0f46;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+  }
+  
+  .navbar-nav {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .nav-item {
+    margin-right: 150px;
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+  }
+  
+  .nav-link:hover {
+    background-color: #555;
+  }
