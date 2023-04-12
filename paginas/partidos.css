@@ -1,0 +1,78 @@
+.body{
+    background-color: rgb(8, 9, 29);    
+}
+.tabla{
+    text-align: center;
+    font-size: 23px;
+    margin-top: 50px;
+    border-color: rgb(200, 202, 54);
+}
+.cuerpo{
+    background-color: rgb(8, 9, 29);
+    color: rgb(200, 202, 54);
+}
+#lugares{
+    color: rgb(8, 9, 29);
+    text-align: center;
+    font-size: 17px;
+    font-family: cursive;
+    background-color: rgb(200, 202, 54);
+}
+#wilster{
+    background-color: brown;
+}
+.encabezado{
+    background-color: rgb(1, 9, 24);
+    color: rgb(231, 224, 224);
+    font-family: cursive;
+}
+.portada{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: rgb(200, 202, 54);
+    font-size: 50px;
+    font-family:cursive;
+    text-align: center;
+
+}
+.contenedor_tablas{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar {
+    background-color: #0e0f46;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .navbar-nav-izq {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    justify-content:flex-start;
+    margin: 0%;
+    font-size: small;
+  }
+  .nav-item {
+    /* margin-right: 10; */
+    font-size: 17px ;
+}
+  
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-link-pat {
+    text-decoration: none;
+    margin-left: 20px;
+}
+  
+.nav-link:hover {
+    background-color: #321df1;
+}

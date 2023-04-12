@@ -1,0 +1,67 @@
+.fondo{
+    background-color: rgb(15, 15, 32);
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.galeria img{
+    width: 100%;
+    height: auto;
+}
+.titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+.navbar {
+    background-color: #0e0f46;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  
+  .navbar-nav-izq {
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    justify-content:flex-start;
+    margin: 0%;
+    font-size: small;
+  }
+  .nav-item {
+    /* margin-right: 10; */
+    font-size: 17px ;
+}
+  
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+}
+
+.nav-link-pat {
+    text-decoration: none;
+    margin-left: 20px;
+}
+  
+.nav-link:hover {
+    background-color: #321df1;
+}
+
+iframe {
+    max-width: 100%; /* Hacer que el video se adapte al ancho del contenedor */
+    height: auto; /* Ajustar la altura automáticamente */
+  }

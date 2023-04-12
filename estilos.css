@@ -1,3 +1,4 @@
+
 .Portada{
     display: flex;
     align-items: center;
@@ -34,6 +35,8 @@
     list-style-type: none;
     margin: 0px;
     justify-content:flex-start;
+    margin: 0%;
+    font-size: small;
   }
   
 .navbar-nav-der {
@@ -44,7 +47,7 @@
 
 .nav-item {
     /* margin-right: 10; */
-    font-size: 20px ;
+    font-size: 17px ;
 }
   
 .nav-link {
@@ -69,4 +72,10 @@
     font-size: x-large;
     font-family: cursive;
     font-style: italic;
+}
+.noticias{
+    display: flex;
+    justify-content:space-around;
+    font-size:23px;
+    text-align: center;
 }
