@@ -9,6 +9,13 @@
     margin-right: 50px;
 }
 .lab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 70%;
+    height: auto;
     text-align: center;
 }
 .contenedor{
